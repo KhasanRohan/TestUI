@@ -53,7 +53,7 @@ public class AuthorizationPage extends BaseTest {
         inputPassword.setValue(pass);
         inputPasswordValidation.setValue(reppass);
         button.click();
-        errText2.shouldHave(text("Ваши пароли не совпадаю"));
+        errText2.shouldHave(text("Ваши пароли не совпадают"));
         return new UnSuccessRegPage();
     }
 }

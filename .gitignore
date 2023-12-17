@@ -36,5 +36,6 @@ build/
 
 ### Mac OS ###
 .DS_Store
-/src/test/java/appleInsider/
+
 /src/test/java/hh/
+
